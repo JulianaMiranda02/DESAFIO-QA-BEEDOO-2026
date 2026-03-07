@@ -1,0 +1,36 @@
+ Cadastro e listagem de cursos
+
+    Sendo um usuário do site Cursos
+    Quero cadastrar um novo curso
+    Para que eu possa ver lista de cursos
+
+    Cenário Positivo: Cadastrar um curso com sucesso
+      Dado que estou na página de lista de cursos
+      Quando clico no botão "Cadastrar curso"
+      E preencho o campo "Nome do curso"
+      E preencho o campo "Descrição do curso"
+      E preencho o campo "Instrutor"
+      E envio uma "Imagem de capa"
+      E preencho a "Data de início"
+      E preencho a "Data de fim"
+      E preencho o "Número de vagas"
+      E seleciono o "Tipo de curso"
+      E clico no botão "Cadastrar curso"
+      Então devo ser redirecionado para a página de lista de cursos
+      E devo visualizar o curso cadastrado na lista
+
+
+    Cenário Negativo: Tentar cadastrar um curso sem preencher campos do formulário
+    Quando clico no botão "Cadastrar curso" sem preencher os campos
+    Então devo visualizar mensagens de validação informando os campos obrigatórios
+
+
+
+
+
+
+
+
+
+
+
