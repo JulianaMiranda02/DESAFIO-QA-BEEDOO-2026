@@ -1,0 +1,7 @@
+Cenário: Excluir curso cadastrado
+
+    Dado que estou na página de lista de cursos
+    E existe um curso cadastrado
+    Quando clico no botão "Excluir" do curso selecionado
+    Então o curso deve ser removido da lista
+    E devo visualizar uma mensagem informando "Curso excluído com sucesso"

@@ -1,0 +1,54 @@
+Cenário: Tentar cadastrar um curso sem preencher campos obrigatórios
+
+  Dado que estou na página de cadastro de curso
+  Quando clico no botão "Cadastrar curso" sem preencher os campos obrigatórios
+  Então devo visualizar mensagens de validação informando que os campos são obrigatórios
+
+______________________________________________________________________________________________
+
+Cenário: Número de vagas negativo
+
+  Dado que estou na página de cadastro de curso
+  Quando informo um número negativo no campo número de vagas
+  E clico em cadastrar curso
+  Então devo visualizar mensagem informando valor inválido
+______________________________________________________________________________________________
+
+Cenário: Cadastrar curso com nome já existente
+
+  Dado que já existe um curso
+  Quando tento cadastrar outro curso com o mesmo nome
+  Então devo visualizar mensagem informando que o curso já existe
+______________________________________________________________________________________________
+
+Cenário: Data de início do curso maior que data de fim
+
+  Dado que estou na página de cadastro de curso
+  Quando informo uma data de início maior que a data de fim curso
+  E clico em cadastrar curso
+  Então devo visualizar mensagem informando que as datas são inválidas
+______________________________________________________________________________________________
+
+Cenário: Link de imagem inválido
+
+  Dado que estou na página de cadastro de curso
+  Quando informo algo que não é um link
+  Então devo visualizar mensagem informando link inválido
+
+______________________________________________________________________________________________
+
+Cenário: Número de vagas igual a zero
+
+  Dado que estou na página de cadastro de curso
+  Quando informo "0" no campo número de vagas
+  E clico no botão "Cadastrar curso"
+  Então devo visualizar mensagem informando que o número de vagas deve ser maior que zero
+
+______________________________________________________________________________________________
+
+Cenário: Descrição com limite de caracteres excedido
+
+  Dado que estou na página de cadastro de curso
+  Quando informo uma descrição com mais caracteres que o permitido
+  E clico no botão "Cadastrar curso"
+  Então devo visualizar mensagem informando que o limite de caracteres foi excedido

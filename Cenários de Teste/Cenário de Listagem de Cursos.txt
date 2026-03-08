@@ -1,0 +1,16 @@
+Cenário: Visualizar cursos cadastrados
+
+    Dado que existem cursos cadastrados no sistema
+    Quando acesso a página de lista de cursos
+    Então devo visualizar os cursos cadastrados na lista
+
+
+
+
+
+
+
+
+
+
+
