@@ -1,0 +1,9 @@
+LINK DO RELATÓRIO DE BUGS ENCONTRADOS:
+
+contendo os vídeos
+
+https://docs.google.com/spreadsheets/d/161ylXNin3JZl1d3o0_2XHmgl9Gh5XmqTIrs4f59WcnU/edit?usp=sharing
+
+LINK DO CENÁRIOS DE TESTES:
+
+https://docs.google.com/spreadsheets/d/1VdhdvQN_MiXPrApRelCpzFVE1IzfHhGvEZRGqGsn5Nc/edit?usp=sharing
